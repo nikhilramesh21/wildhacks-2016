@@ -16,4 +16,5 @@ $(function(){
 		option += '<option value="'+ list[i] + '">' + list[i] + '</option>';
 	}
 	$select.append(option);
+
 });
