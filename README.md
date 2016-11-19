@@ -4,4 +4,5 @@
 #Contributors: Ankita Chowdhry, Nikhil Ramesh, Pranav Dhingra, Rohaan Advani
 #Idea: 
 A website/chrome extention to know what classes your friends are doing next quarter. 
-Developed using Python, CSS, HTML, JavaScript, Django, RedBull and Banter 
+Developed using Python, CSS, HTML, JavaScript, Django, RedBull and Banter. 
+Answers the question "What classes are you in Next Quarter? "
