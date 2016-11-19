@@ -1,0 +1,8 @@
+#Wildhacks 2016 
+#Contributors: Ankita Chowdhry, Nikhil Ramesh, Pranav Dhingra, Rohaan Advani 
+#Idea: 
+A webapp that allows you to select classes and tells you which of your friends are also in that class next quarter.
+#Implementation 
+The front end implementation was done in HTML, CSS and Javascript in the form of a clickable webpage 
+The data was generated and parsed using python and the Northwestern ASG API.
+We attempted to deploy this app using a django framework but were not able to do so. We intend to learn this framework and complete this app in the near future. 
