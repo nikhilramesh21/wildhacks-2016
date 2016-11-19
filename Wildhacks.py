@@ -11,7 +11,7 @@ import requests
 
 #to find all the subjects offered this quarter
 params = {
-  'key': '2EJqD5PCbVie7742',
+  'key': '*REQUEST API KEY HERE: http://developer.asg.northwestern.edu/*',
   'term': 4640,
 }
 response = requests.get('http://api.asg.northwestern.edu/subjects/', params=params)
@@ -27,7 +27,7 @@ courses = {}
 for subject in sublist:
 	courses[subject] = []
 	params1 = {
-	  'key': '2EJqD5PCbVie7742',
+	  'key': '*REQUEST API KEY HERE: http://developer.asg.northwestern.edu/*',
 	  'term': 4640,
 	  'subject': subject
 	}
