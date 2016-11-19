@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Collab</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="./jqfile.js">
+	</script>
+	<style>
+		body{
+			text-align:center;
+			color: #003d4d;
+  			font-size: 16px;
+  			margin: 10%;
+   			height:100%;
+   			font-size:40px;
+   			background: #A078FA;
+   			font-color:#33C7FF;
+   			font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+			font-style: normal;
+			font-variant: normal;
+
+		}
+
+		.hidden{
+			display: none;
+		}
+
+		</style>
+</head>
+<body>
+	<h1>CollabClass</h1>
+	<div id="CourseSelectPage">
+		<form id="form1">
+			<label>Subject</label>
+      	       <select id = "myList1">
+      	         <!--<option value = "1">one</option>
+       	        <option value = "2">two</option>
+        	       <option value = "3">three</option>
+            	   <option value = "4">four</option><!-->
+             	</select> <br><input type="submit" value="Submit">
+             	<br>
+       	 <label>Class</label>
+        	     <select id = "myList2">
+         	      <option value = "1">one</option>
+           	    <option value = "2">two</option>
+           	    <option value = "3">three</option>
+           	    <option value = "4">four</option>
+           	  </select> <br>  
+			<br><input id="SubmitButton" type="submit" value="Find Class">
+		</form>
+	</div>
+
+	<div id="CourseInfoPage" class='hidden'>
+		<h4>Class Name</h4>
+		<h5 ><a href=#> Enroll</a></h5>
+		<ul >
+			<li>about</li>
+      		<li>experience</li>
+      		<li>skills/projects</li>
+     		<li>contact me</li>
+		</ul>
+		<h5> <a href=#> Possible</a></h5>
+		<ul >
+			<li><a class="animation" >about</a></li>
+      		<li><a class="animation" >experience</a></li>
+      		<li><a class="animation" >skills/projects</a></li>
+      		<li><a class="animation" >contact me</a></li>
+		</ul>
+	</div>
+</body>
+</html>
