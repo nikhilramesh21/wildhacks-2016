@@ -5,4 +5,4 @@
 #Idea: 
 A website/chrome extention to know what classes your friends are doing next quarter. 
 Developed using Python, CSS, HTML, JavaScript, Django, RedBull and Banter. 
-#Answers the question "What classes are you in next quarter? "
+# What classes are you in next quarter? 
